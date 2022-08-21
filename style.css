@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 100px;
+    background: #9f63ff;
+    width: 100%;
+}
+.logo{
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    padding: 35px;
+    margin-left: 50px;
+}
+.logo a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.nav_bar{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+.nav_bar li{
+    display: inline-block;
+}
+.nav_bar li a{
+    padding: 15px;
+}
+.nav_bar li a:hover{
+    background: #9939ed;
+    color: #ffffff;
+    border: 1px solid #9939ed;
+    border-radius: 5px;
+    border-width: auto;
+}
